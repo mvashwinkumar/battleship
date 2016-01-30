@@ -1,0 +1,80 @@
+body {
+	position: relative;
+}
+
+.board {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 500px;
+	width: 500px;
+	border: 3px;
+	border-color: grey;
+	border-radius: 3px;
+	background-color: #444444;
+	padding: 5px;
+}
+
+.board-temp {
+	opacity:0.5;
+}
+
+.select {
+	position: absolute;
+	height: 40px;
+	width: 100px;
+}
+
+.select-piece {
+	top: 25px;
+	left: 525px;
+}
+
+.btn {
+	position: absolute;
+	height: 40px;
+	width: 100px;
+}
+
+.btn-edit {
+	top: 75px;
+	left: 525px;
+}
+
+.cell {
+	float: left;
+	height: 46px;
+	width: 46px;
+	background-color: green;
+	padding: 1px;
+	margin: 1px;
+}
+
+.cell:hover {
+	opacity: 0.8;
+}
+
+.cell-hit {
+	background-color: red;
+}
+
+.cell-water {
+	background-color: blue;
+}
+
+.cell-airship {
+	background-color: yellow;
+}
+
+.cell-speedboat {
+	background-color: white;
+}
+
+.cell-ferry {
+	background-color: orange;
+}
+
+.cell-temp {
+	opacity: 1.0;
+	background-color: black;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css"></link>
+	<script type="text/javascript" src="app.js"></script>
+	<script type="text/javascript" src="board.js"></script>
+	<script type="text/javascript" src="cell.js"></script>
+	<script type="text/javascript" src="piece.js"></script>
+</head>
+<body onload='onload()' onkeypress='onKeyPress(event)'>
+	<div id="primaryboard"></div>
+	<br>
+	<div id="secondaryboard"></div>
+	<br>
+	<select id="pieceSelect" class="select select-piece"></select>
+	<br>
+	<button class="btn btn-edit" onclick="onEditPiece(event)">Edit/Add Piece</button>
+</body>	
+
+</html>

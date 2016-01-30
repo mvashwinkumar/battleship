@@ -1,0 +1,14 @@
+{
+  "name": "battleship",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "lite-server": "^1.3.1"
+  }
+}
